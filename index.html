@@ -27,10 +27,29 @@
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.css">
 	<link rel="stylesheet" type="text/css" href="https://allyoucan.cloud/cdn/icofont/1.0.0beta/css/icofont.css" integrity="sha384-+iJF6xK4xnr+UBchttOu5eVXU3O/+WiateNu6D76ixKwFPrlm5NkgTnAR35tgjMU" crossorigin="anonymous">
 
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+
+
 	<link rel="stylesheet" type="text/css" href="css/horizontal-timeline.css">
 	<link rel="stylesheet" type="text/css" href="css/c3.css">
 	<link rel="stylesheet" type="text/css" href="css/component.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<style>
+		.input-group-addon {
+			padding: .5rem .75rem;
+			margin-bottom: 0;
+			font-size: 1rem;
+			font-weight: 400;
+			line-height: 1.25;
+			color: #495057;
+			text-align: center;
+			background-color: #e9ecef;
+			border: 1px solid rgba(0, 0, 0, .15);
+			border-radius: .25rem;
+		}
+	</style>
 
 
 </head>
@@ -153,7 +172,7 @@
 					<nav class="pcoded-navbar">
 						<div class="sidebar_toggle"><a href="#"><i class="icon-close icons"></i></a></div>
 						<div class="pcoded-inner-navbar main-menu">
-							
+
 							<ul class="pcoded-item pcoded-left-item">
 								<li class=" ">
 									<a href="">
@@ -163,14 +182,14 @@
 									</a>
 
 								</li>
-								
-							
-								
+
+
+
 							</ul>
-							
+
 							<div class="pcoded-navigatio-lavel">Inventory</div>
 							<ul class="pcoded-item pcoded-left-item">
-								
+
 								<li class="pcoded-hasmenu">
 									<a href="javascript:void(0)" data-i18n="nav.navigate.main">
 										<span class="pcoded-micon"><img src="images/icon-products.png" class="img-valign"></span>
@@ -208,11 +227,11 @@
 										</li>
 									</ul>
 								</li>
-								
-								
-								
-								
-								
+
+
+
+
+
 
 								<li class=" ">
 									<a href="">
@@ -221,9 +240,9 @@
 										<span class="pcoded-mcaret"></span>
 									</a>
 								</li>
-								
+
 							</ul>
-							
+
 							<div class="pcoded-navigatio-lavel">CPQ</div>
 							<ul class="pcoded-item pcoded-left-item">
 								<li class=" ">
@@ -248,7 +267,7 @@
 									</a>
 								</li>
 							</ul>
-												
+
 							<div class="pcoded-navigatio-lavel">Administration</div>
 							<ul class="pcoded-item pcoded-left-item">
 								<li class=" ">
@@ -322,17 +341,94 @@
 
 
 												<div class="card">
-													<div class="card-header">
-														<h5>Page Sample</h5>
 
-														<!-- <div class="card-header-right">
-															<i class="icofont icofont-rounded-down"></i>
-															<i class="icofont icofont-refresh"></i>
-															<i class="icofont icofont-close-circled"></i>
-														</div> -->
+													<div class="card-block top-header-card">
+														<div class="text-center">
+															<div class="f-left">
+																<h5>Test</h5></div>
+
+															<div class="f-right ">
+																<div class="btn-group">
+																	<div class="input-group">
+																		<input type="text" class="form-control" placeholder="Search...">
+																		<span class="input-group-addon" id="basic-addon5"><i class="fa fa-search" aria-hidden="true"></i></span>
+																	</div>
+																</div>
+																<div class="btn-group">
+																	
+																	<div class="input-group">
+																		<select name="crm-contact_length" aria-controls="crm-contact" class="form-control input-sm">
+																			<option value="10">View</option>
+																			<option value="25">Search</option>
+																			<option value="50">Joes View</option>
+																			<option value="100">100</option></select>
+																		<span class="input-group-addon" id="basic-addon5"><i class="far fa-save"></i></span>
+																	</div>
+																	
+																</div>
+																<div class="btn-group">
+																	<button type="button" class="btn btn-primary btn-xs waves-effect waves-light">
+																		<i class="fas fa-filter"></i>
+																	</button>
+																	<button type="button" class="btn btn-primary btn-xs waves-effect waves-light">
+																		<i class="fas fa-plus"></i>
+																	</button>
+
+																</div>
+																<div class="btn-group">
+																	<button type="button" class="btn btn-primary">
+																		<i class="fas fa-pencil-alt"></i>
+																	</button>
+																	<button type="button" class="btn btn-primary">
+																		<img src="images/export_icon-multi.png" width="16px">
+																	</button>
+																	<button type="button" class="btn btn-primary">
+																		<i class="far fa-trash-alt"></i>
+																	</button>
+
+																</div>
+
+																<div class="btn-group">
+																	<button type="button" class="btn btn-primary">
+																		<i class="fa fa-eye" aria-hidden="true"></i>
+																	</button>
+																	<button type="button" class="btn btn-primary">
+																		<i class="fas fa-columns"></i>
+																	</button>
+																	<button type="button" class="btn btn-primary">
+																		<img src="images/export-icon.png" width="16px">
+																	</button>
+
+																</div>
+															</div>
+
+
+
+
+														</div>
 													</div>
+
+													<!-- <div class="card-header">
+														<h5>Page Sample</h5>
+														
+														
+
+														<div class="card-header-right" style="background-color:#fff; margin-right:20px">
+															<div class="btn-group" role="group" data-toggle="tooltip" data-placement="top" title="" data-original-title=".btn-xlg">
+																	<button type="button" class="btn btn-primary btn-xs waves-effect waves-light">
+																		<i class="fas fa-filter"></i>
+																	</button>
+																	<button type="button" class="btn btn-primary btn-xs waves-effect waves-light">
+																		<i class="fas fa-plus"></i>
+																	</button>
+																	
+																</div>
+														</div>
+													</div> -->
 													<div class="card-block table-border-style" style="height: 600px">
 														<div class="table-responsive">
+															
+															
 															<!-- <table class="table table-hover">
 																<thead>
 																	<tr>

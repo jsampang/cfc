@@ -28955,8 +28955,10 @@ body.menu-bottom .navbar-wrapper {
     color: #8e8e93;
     display: block;
     width: 100%;
-    border-radius: 3px!important;
+    /*border-radius: 3px!important;*/
 	  background-color: #f8f8f8;
+	border-top-right-radius: 0px! important;
+    border-bottom-right-radius: 0px! important;
 }
 
 .top-header-card {
