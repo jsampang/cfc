@@ -10613,6 +10613,7 @@ body.menu-sidebar .navbar-wrapper {
 .btn-group-vertical {
 	display: inline-block;
 	margin-left: 7px;
+	margin-top: 8px;
 }
 
 .btn-group .btn {
