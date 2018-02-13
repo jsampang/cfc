@@ -29014,9 +29014,24 @@ body.menu-bottom .navbar-wrapper {
     align-items: center;
     -ms-flex-pack: end;
     justify-content: flex-end;
-    padding: 15px;
-    border-top: 1px solid #e9ecef;
+    padding: 9px 9px 29px 9px;
+    border-top: 1px solid #ffffff;
     align-items: center;
     justify-content: center;
+}
+
+.modal-body {
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 23px 23px 36px 23px;
+    border: 1px solid #e3e3e3;
+    margin: 20px;
+}
+
+.form-text-title {
+		font-weight: bold;
+		text-align: right;
+	padding-top: 7px;
 }
 /*# sourceMappingURL=style.css.map */
