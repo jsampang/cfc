@@ -29035,4 +29035,10 @@ body.menu-bottom .navbar-wrapper {
 		text-align: right;
 	padding-top: 7px;
 }
+
+.close:focus, .close:hover {
+    color: #fff;
+    text-decoration: none;
+    opacity: .75;
+}
 /*# sourceMappingURL=style.css.map */
