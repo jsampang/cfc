@@ -28975,6 +28975,29 @@ body.menu-bottom .navbar-wrapper {
     border-bottom-right-radius: 0px! important;
 }
 
+.form-control-sm {
+    color: #8e8e93;
+	  background-color: #f8f8f8;
+	  border-top-right-radius: 0px! important;
+    border-bottom-right-radius: 0px! important;
+}
+
+.form-control-sm {
+    display: block;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+} 
+
+select.form-control-sm:not([size]):not([multiple]) {
+    height: calc(2.25rem + 2px);
+}
+
 .top-header-card {
 	border-bottom: 1px solid #ddd;
 }
