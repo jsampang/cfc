@@ -2,3 +2,5 @@
 	margin-left: 10px;
 	color: #757575;
 }
+
+.tooltip {z-index: 50000;}

@@ -1,0 +1,79 @@
+<% extends '0fba8c361178e0277fe418c26aea3f04' %>
+<% block content %>
+<$ super() $>
+
+<div class="page-header">
+	<div class="page-header-title">
+		<h4>Home</h4>
+	</div>
+	<div class="page-header-breadcrumb">
+		<ul class="breadcrumb-title">
+			<li class="breadcrumb-item">
+				<a href="index.html">
+					<i class="icofont icofont-home"></i>
+				</a>
+			</li>
+			<li class="breadcrumb-item"><a href="#!">Index</a>
+			</li>
+			<li class="breadcrumb-item"><a href="#!">Page View</a>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<div class="page-body">
+	<div class="row">
+		<div class="col-sm-12">
+			<div class="card">
+				<div class="card-header">
+					<h5>Heading</h5>
+					<span>Sub-title here</span>
+				</div>
+				<div class="card-block">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</div>
+
+				<div class="card-header">
+					<h5>Modals</h5>
+					<span>All custom fields</span>
+				</div>
+				<div class="card-block">
+					<button type="button" class="btn btn-primary waves-effect" data-toggle="modal" data-target="#modal-filter">Filter View</button>
+					<button type="button" class="btn btn-primary waves-effect" data-toggle="modal" data-target="#modal-save">Save View</button>
+					<button type="button" class="btn btn-primary waves-effect" data-toggle="modal" data-target="#modal-change-column">Change Column View</button>
+					<button type="button" class="btn btn-primary waves-effect" data-toggle="modal" data-target="#modal-manage">Manage View</button>
+					<br>
+					<br>
+					<button type="button" class="btn btn-primary waves-effect" data-toggle="modal" data-target="#modal-export">Export View</button>
+					<button type="button" class="btn btn-primary waves-effect" data-toggle="modal" data-target="#modal-edit">Edit View</button>
+					<button type="button" class="btn btn-primary waves-effect" data-toggle="modal" data-target="#modal-mass-edit">Mass Edit View</button>
+					<button type="button" class="btn btn-primary waves-effect" data-toggle="modal" data-target="#modal-delete">Delete View</button>
+					<button type="button" class="btn btn-primary waves-effect" data-toggle="modal" data-target="#modal-add">Add View</button>
+					<# modal filter #>
+					<% include('f105f589e955e859d529aa1630a24c77') %>
+					<# modal save #>
+					<% include('ba912227fd5dcc91b003dd5d0c1fccc4') %>
+					<# modal change column #>
+					<% include('ce6167bb2957c48d98845e2deef30066') %>
+					<# modal manage #>
+					<% include('0c50bb55c2f505bc9654815167715a76') %> 
+					<# modal export #>
+					<% include('311b017f0dd3f6afa064eefd4db67234') %>
+					<# modal edit #> 
+					<% include('6cfe57050f7797691a0ca50a51cd543f') %>
+					<# modal mass edit #> 
+					<% include('0b659b2af4f1ee3e2172950eacac46a9') %>
+					<# modal delete #> 
+					<% include('c804bcaad2c9d24f920a5e4a77307c84') %>
+					<# modal add #> 
+					<% include('3a6414d41a94d84b7f9c7f0e2452b9bd') %>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+<% endblock %>
