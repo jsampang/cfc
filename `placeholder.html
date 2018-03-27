@@ -1,23 +1,245 @@
-<div class="card-block">
-	<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-	</p>
-	<ul class="m-b-20">
-		<h4 class="sub-title">Basic Component</h4>
-		<li><i class="icofont icofont-double-right text-success"></i><a href="https://cfc.rowboatllc.com/basic-components">Modals</a></li>
-	</ul>
-	<ul class="m-b-20">
-		<h4 class="sub-title">Main Page</h4>
-		<li><i class="icofont icofont-double-right text-success"></i><a href="https://cfc.rowboatllc.com/pages/home">Dashboards</a></li>
-	</ul>
-	<ul class="m-b-20">
-		<h4 class="sub-title">Inventory Page</h4>
-		<li><i class="icofont icofont-double-right text-success"></i><a href="https://cfc.rowboatllc.com/pages/inventory/products">Product page</a></li>
-		<li><i class="icofont icofont-double-right text-success"></i><a href="https://cfc.rowboatllc.com/pages/inventory/manufacturer">Manufacturer page</a></li>
-	</ul>
-	<ul class="m-b-20">
-		<h4 class="sub-title">CPQ Page</h4>
-		<li></li>
+<div class="page-body">
+	<div class="row">
+		<div class="col-md-12 col-xl-4">
+			<div class="card widget-statstic-card borderless-card">
+				<div class="card-header">
+					<div class="card-header-left">
+						<h5>Statistics</h5>
+						<p class="p-t-10 m-b-0 text-muted">Compared to last week</p>
+					</div>
+				</div>
+				<div class="card-block">
+					<i class="icofont icofont-presentation-alt st-icon bg-primary"></i>
+					<div class="text-left">
+						<h3 class="d-inline-block">5,456</h3>
+						<i class="icofont icofont-long-arrow-up f-30 text-success"></i>
+						<span class="f-right bg-success">23%</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6 col-xl-4">
 
-	</ul>
+
+			<div class="card widget-statstic-card borderless-card">
+				<div class="card-header">
+					<div class="card-header-left">
+						<h5>Daily order</h5>
+						<p class="p-t-10 m-b-0 text-muted">Compare to yesterday</p>
+					</div>
+				</div>
+				<div class="card-block">
+					<i class="icofont icofont-users-social st-icon bg-warning txt-lite-color"></i>
+					<div class="text-left">
+						<h3 class="d-inline-block">600</h3>
+						<i class="icofont icofont-long-arrow-down text-danger f-30 "></i>
+						<span class="f-right bg-danger">-5%</span>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+		<div class="col-md-6 col-xl-4">
+			<div class="card widget-statstic-card borderless-card">
+				<div class="card-header">
+					<div class="card-header-left">
+						<h5>Revenue 2017</h5>
+						<p class="p-t-10 m-b-0 text-muted">This year revenue</p>
+					</div>
+				</div>
+				<div class="card-block">
+					<i class="icofont icofont-chart-line st-icon bg-success"></i>
+					<div class="text-left">
+						<h3 class="d-inline-block">$2,65,500</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-xl-8 col-md-6">
+			<div class="card">
+				<div class="card-block">
+					<h5>Analytics</h5>
+				</div>
+				<div class="card-block">
+					<div id="analythics-graph" style="height:365px"></div>
+				</div>
+			</div>
+		</div>
+		<div class="col-xl-4 col-md-6">
+			<div class="user-card-block card">
+				<div class="card-block">
+					<div class="top-card text-center">
+						<img src="assets/images/widget/user1.png" class="img-responsive" alt="">
+					</div>
+					<div class="card-contain text-center p-t-40">
+						<h5 class="text-capitalize p-b-10">Gregory Johnes</h5>
+						<p class="text-muted">Califonia, USA</p>
+					</div>
+					<div class="card-data m-t-40">
+						<div class="row">
+							<div class="col-3 b-r-default text-center">
+								<p class="text-muted">Followers</p>
+								<span>345</span>
+							</div>
+							<div class="col-3 b-r-default text-center">
+								<p class="text-muted">Following</p>
+								<span>40</span>
+							</div>
+							<div class="col-3 b-r-default text-center">
+								<p class="text-muted">Questions</p>
+								<span>12</span>
+							</div>
+							<div class="col-3 text-center">
+								<p class="text-muted">Answers</p>
+								<span>40</span>
+							</div>
+						</div>
+					</div>
+					<div class="card-button p-t-50">
+						<div class="row">
+							<div class="col-6 text-right">
+								<button class="btn btn-primary btn-round">Follow</button>
+							</div>
+							<div class="col-6 text-left">
+								<button class="btn btn-success btn-round">Message</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-12">
+			<div class="card">
+				<div class="card-block">
+					<h5>Reset Order</h5>
+				</div>
+				<div class="card-block reset-table p-t-0">
+					<div class="table-responsive">
+						<table class="table">
+							<thead>
+								<tr class="text-uppercase">
+									<th>Image</th>
+									<th>Product Name</th>
+									<th>Product Code</th>
+									<th>Status</th>
+									<th>Purchased on</th>
+									<th>Price</th>
+									<th>Quantity</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>
+										<a href="#!"><img class="img-responsive" src="assets/images/widget/prod1.jpg" alt="chat-user"></a>
+									</td>
+									<td>Leisure Suit Casual</td>
+									<td>3BSD59</td>
+									<td>
+										<button type="button" class="btn btn-success btn-round">Pending</button>
+									</td>
+									<td>27 Sep 2015</td>
+									<td>$99.00</td>
+									<td>2</td>
+								</tr>
+								<tr>
+									<td>
+										<a href="#!"><img class="img-responsive" src="assets/images/widget/prod4.jpg" alt="chat-user"></a>
+									</td>
+									<td>Leisure Suit Casual</td>
+									<td>3BSD59</td>
+									<td>
+										<button type="button" class="btn btn-primary btn-round">Process</button>
+									</td>
+									<td>27 Sep 2015</td>
+									<td>$99.00</td>
+									<td>2</td>
+								</tr>
+								<tr>
+									<td>
+										<a href="#!"><img class="img-responsive" src="assets/images/widget/prod2.jpg" alt="chat-user"></a>
+									</td>
+									<td>Leisure Suit Casual</td>
+									<td>3BSD59</td>
+									<td>
+										<button type="button" class="btn btn-warning btn-round">Failed</button>
+									</td>
+									<td>27 Sep 2015</td>
+									<td>$99.00</td>
+									<td>2</td>
+								</tr>
+								<tr>
+									<td>
+										<a href="#!"><img class="img-responsive" src="assets/images/widget/prod3.jpg" alt="chat-user"></a>
+									</td>
+									<td>Leisure Suit Casual</td>
+									<td>3BSD59</td>
+									<td>
+										<button type="button" class="btn btn-primary btn-round">Process</button>
+									</td>
+									<td>27 Sep 2015</td>
+									<td>$99.00</td>
+									<td>2</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-12">
+			<div class="card">
+				<div class="card-block">
+					<h5>Client Activity</h5>
+				</div>
+				<div class="card-block client-card table-1-card p-t-0">
+					<div class="table-responsive">
+						<table class="table">
+							<thead>
+								<tr class="text-capitalize">
+									<th>User</th>
+									<th>Visits</th>
+									<th>Purchases</th>
+									<th>Call</th>
+									<th>Total Profit</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="photo-table img">
+										<a href="#!"><img class="img-circle" src="assets/images/widget/user2.png" alt="chat-user"></a>
+										<p>Angelina Vitale</p>
+									</td>
+									<td>287</td>
+									<td>34</td>
+									<td>52</td>
+									<td class="text-success">5,946 $</td>
+								</tr>
+								<tr>
+									<td class="photo-table img">
+										<a href="#!"><img class="img-circle" src="assets/images/widget/user3.png" alt="chat-user"></a>
+										<p>Angelina Vitale</p>
+									</td>
+									<td>102</td>
+									<td>346</td>
+									<td>52</td>
+									<td class="text-success">5,946 $</td>
+								</tr>
+								<tr>
+									<td class="photo-table img">
+										<a href="#!"><img class="img-circle" src="assets/images/widget/user4.png" alt="chat-user"></a>
+										<p>Angelina Vitale</p>
+									</td>
+									<td>287</td>
+									<td>123</td>
+									<td>52</td>
+									<td class="text-success">5,946 $</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
